@@ -1,0 +1,14 @@
+{
+  "name": "vue-json-compare",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
