@@ -1,16 +1,16 @@
-name: Deploy Vue 3 app to GitHub Pages
+name: Deploy Vue 3 project to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # замените на вашу основную ветку, например master
+      - main  # ваша основная рабочая ветка
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Setup Node.js
